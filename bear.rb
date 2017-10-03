@@ -17,4 +17,10 @@ class Bear
     @fish << fish
   end
 
+  def bear_can_roar
+    if @fish.count >= 0
+      return "roar!!"
+    end
+  end
+
 end

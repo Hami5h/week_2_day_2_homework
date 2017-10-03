@@ -28,4 +28,8 @@ class TestBear < MiniTest::Test
     assert_equal(1, @bear_1.bear_stomach_status)
   end
 
+  def test_bear_can_roar
+    assert_equal("roar!!", @bear_1.bear_can_roar)    
+  end
+
 end
